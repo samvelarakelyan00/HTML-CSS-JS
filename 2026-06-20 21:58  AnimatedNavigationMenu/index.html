@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Navigation Menu Bar</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <input type="radio" name="slider" id="home" checked hidden>
+    <input type="radio" name="slider" id="blog" hidden>
+    <input type="radio" name="slider" id="code" hidden>
+    <input type="radio" name="slider" id="help" hidden>
+    <input type="radio" name="slider" id="about" hidden>
+    <nav>
+      <div class="slider"></div>
+      <label for="home" class="home">
+        <i class="fas fa-home"></i>Home
+      </label>
+
+      <label for="blog" class="blog">
+        <i class="fas fa-blog"></i>Blog
+      </label>
+
+      <label for="code" class="code">
+        <i class="fas fa-code"></i>Code
+      </label>
+
+      <label for="help" class="help">
+        <i class="fas fa-envelope"></i>Help
+      </label>
+
+      <label for="about" class="about">
+        <i class="fas fa-user"></i>About
+      </label>
+    </nav>
+  </div>
+</body>
+</html>
