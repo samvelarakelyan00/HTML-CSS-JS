@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header 1</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header__container">
+      <a href="./index.html" class="header__logo" aria-label="Homepage">
+        <img src="images/SiteLogo.svg" alt="Site Logo" class="header__logo-img" loading="lazy" width="120" height="40">
+      </a>
+      <button class="header__hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+      <nav class="header__nav" aria-label="Main navigation">
+        <ul class="header__menu">
+          <li class="header__menu-item"><a href="#about" class="header__menu-link">About</a></li>
+          <li class="header__menu-item"><a href="#features" class="header__menu-link">Features</a></li>
+          <li class="header__menu-item"><a href="#pricing" class="header__menu-link">Pricing</a></li>
+          <li class="header__menu-item"><a href="#gallery" class="header__menu-link">Gallery</a></li>
+          <li class="header__menu-item"><a href="#team" class="header__menu-link">Team</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="header__btn">Sign In</a>
+    </div>
+  </header>
+</body>
+</html>
