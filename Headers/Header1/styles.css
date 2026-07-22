@@ -1,6 +1,6 @@
 :root {
   --color-primary: rgb(239, 48, 79);
-  --color-text: #000000;
+  --color-text: #000;
   --color-bg-dark: rgb(48, 48, 48);
   --font-main: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --transition-speed: 0.3s;
@@ -23,12 +23,12 @@ body {
   font-family: var(--font-main);
   font-size: 1rem;
   line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;  /* Chrome, Safari, Edge */
+  -moz-osx-font-smoothing: grayscale;  /* Firefox on macOS */
 }
 
 .header {
-  background-color: #ffffff;
+  background-color: #fff;
   width: 100%;
   position: sticky;
   top: 0;
@@ -55,7 +55,6 @@ body {
   display: block;
   height: auto;
   max-width: 100%;
-  background-color: #f0f0f0;
 }
 
 .header__hamburger {
@@ -137,14 +136,15 @@ body {
 .header__btn {
   text-decoration: none;
   background-color: var(--color-primary);
-  color: #ffffff;
+  color: #fff;
   padding: 12px 36px;
   font-weight: 500;
   font-size: 15px;
   border-radius: 2px;
-  transition: transform var(--transition-speed) ease, 
+  /* transition: transform var(--transition-speed) ease, 
               box-shadow var(--transition-speed) ease, 
-              background-color var(--transition-speed) ease;
+              background-color var(--transition-speed) ease; */
+  transition: all 0.3s ease;
   white-space: nowrap;
 }
 
