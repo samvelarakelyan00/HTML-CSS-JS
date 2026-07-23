@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header 2</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header__container">
+      
+      <a href="./index.html" class="header__logo" aria-label="Homepage">
+        <img src="images/SiteLogo.svg" alt="Site Logo" class="header__logo-img" width="140" height="60">
+      </a>
+
+      <nav class="header__nav" aria-label="Main navigation">
+        <ul class="header__menu">
+          <li class="header__menu-item"><a href="#about" class="header__menu-link">About</a></li>
+          <li class="header__menu-item"><a href="#features" class="header__menu-link">Features</a></li>
+          <li class="header__menu-item"><a href="#pricing" class="header__menu-link">Pricing</a></li>
+          <li class="header__menu-item"><a href="#gallery" class="header__menu-link">Gallery</a></li>
+          <li class="header__menu-item"><a href="#team" class="header__menu-link">Team</a></li>
+        </ul>
+      </nav>
+      
+      <button class="header__burger" aria-label="Toggle menu" aria-expanded="false">
+        <i class="fas fa-bars header__burger-icon"></i>
+      </button>
+
+    </div>
+  </header>
+</body>
+</html>
